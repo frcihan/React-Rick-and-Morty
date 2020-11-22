@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react'
+import axios from "axios"
+import './App.css'
+import {Characters} from "./pages/Characters/index"
+import {Episodes} from "./pages/Episodes/index"
+import {Favorites} from "./pages/Favorites/index"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import {Home} from "./pages/Home/index"
+import {Navbar} from "./components/Navbar"
+import { CharacterDetails } from './pages/CharacterDetails'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/details/:id" component={CharacterDetails} />
+          <Route path="/characters" component={Characters} />
+          <Route path="/episodes" component={Episodes} />
+          <Route path="/favorites" component={Favorites} />
+          <Route path="/" component={Home} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
