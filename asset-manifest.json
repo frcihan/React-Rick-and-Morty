@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-Rick-and-Morty/static/css/main.36b04d56.chunk.css",
+    "main.js": "/React-Rick-and-Morty/static/js/main.0c4dda9c.chunk.js",
+    "main.js.map": "/React-Rick-and-Morty/static/js/main.0c4dda9c.chunk.js.map",
+    "runtime-main.js": "/React-Rick-and-Morty/static/js/runtime-main.0c281068.js",
+    "runtime-main.js.map": "/React-Rick-and-Morty/static/js/runtime-main.0c281068.js.map",
+    "static/js/2.1133f3af.chunk.js": "/React-Rick-and-Morty/static/js/2.1133f3af.chunk.js",
+    "static/js/2.1133f3af.chunk.js.map": "/React-Rick-and-Morty/static/js/2.1133f3af.chunk.js.map",
+    "index.html": "/React-Rick-and-Morty/index.html",
+    "static/css/main.36b04d56.chunk.css.map": "/React-Rick-and-Morty/static/css/main.36b04d56.chunk.css.map",
+    "static/js/2.1133f3af.chunk.js.LICENSE.txt": "/React-Rick-and-Morty/static/js/2.1133f3af.chunk.js.LICENSE.txt",
+    "static/media/876590.2f652cc9.png": "/React-Rick-and-Morty/static/media/876590.2f652cc9.png",
+    "static/media/App.css": "/React-Rick-and-Morty/static/media/bg-episodes.21453120.jpg",
+    "static/media/construction.9ed6c6b8.gif": "/React-Rick-and-Morty/static/media/construction.9ed6c6b8.gif",
+    "static/media/header.c1ef19b4.png": "/React-Rick-and-Morty/static/media/header.c1ef19b4.png",
+    "static/media/rm-season1.eaf1267f.jpg": "/React-Rick-and-Morty/static/media/rm-season1.eaf1267f.jpg",
+    "static/media/rm-season2.a82254dc.jpg": "/React-Rick-and-Morty/static/media/rm-season2.a82254dc.jpg",
+    "static/media/rm-season3.97c55a7d.jpg": "/React-Rick-and-Morty/static/media/rm-season3.97c55a7d.jpg",
+    "static/media/rm-season4.cecfede0.jpg": "/React-Rick-and-Morty/static/media/rm-season4.cecfede0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c281068.js",
+    "static/js/2.1133f3af.chunk.js",
+    "static/css/main.36b04d56.chunk.css",
+    "static/js/main.0c4dda9c.chunk.js"
+  ]
+}
