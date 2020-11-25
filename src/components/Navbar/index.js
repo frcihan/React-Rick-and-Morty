@@ -16,9 +16,9 @@ export const Navbar = () => {
                     <StyledListItem>
                         <Link to="/characters">Characters</Link>
                     </StyledListItem>
-                    <StyledListItem>
+                    {/* <StyledListItem>
                         <Link to="/favorites">Favorites</Link> 
-                    </StyledListItem>
+                    </StyledListItem> */}
                 </StyledList>
             </StyledNav>
         </StyledNavbarWrapper>
