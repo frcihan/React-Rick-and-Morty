@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from 'react';
-import axios from "axios"
 import { StyledFavorites, StyledImage } from "./Favorites.style"
 import Construction from "../../img/construction.gif"
 
